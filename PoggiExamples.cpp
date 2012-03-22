@@ -94,8 +94,8 @@ int main()
 	print_grafo(Dim);
 
 
-	printf("Tecle <enter>");
-	getch();
+//	printf("Tecle <enter>");
+//	getch();
 
 	print_listas(Dim);
 
@@ -150,8 +150,8 @@ int main()
 //	getch();  
 //    Prim(v); 
 
-	printf("Tecle <enter>");
-	getch();
+//	printf("Tecle <enter>");
+//	getch();
 
 
 
@@ -205,7 +205,7 @@ void Boruvka(int n)
      iter = 0;
      print_listas_AGM_B( n, iter, grupo);
      printf("Tecle <enter>");
-	 getch();
+//	 getch();
 
      
      do
@@ -281,7 +281,7 @@ void Boruvka(int n)
 
        print_listas_AGM_B( n, iter, grupo);
 	   printf("Tecle <enter>");
-	   getch();
+//	   getch();
        
      }
      while (n_grupos > 1);
@@ -706,12 +706,12 @@ void FordBellman(int s)
 		   while ((w != v)&&(pred[w] > 0)); */
 	       printf("\n");
         }
-        getch();
+//        getch();
 
 
 	}
 
-        getch();
+//        getch();
 
 	// Testa se existe circuito negativo
 
@@ -731,7 +731,7 @@ void FordBellman(int s)
 					printf(" %d ",w);
 					w = pred[w];
                     printf("dep v=%d w=%d \n",v,w);
-                    getch();
+//                    getch();
 				}
 				while(w != v);
 				printf(" \n\n ");

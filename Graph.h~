@@ -34,5 +34,5 @@ public:
 	//		int last
 	//TO DO: also create keys: "path", "first"
 	map<string, string> shortest_path( char, int );
-	map<string, string> dijkstra( int );
+	map<string, string> dijkstra( int )
 };

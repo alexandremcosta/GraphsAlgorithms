@@ -94,8 +94,8 @@ int main()
 	print_grafo(Dim);
 
 
-	printf("Tecle <enter>");
-	getch();
+//	printf("Tecle <enter>");
+//	getch();
 
 	print_listas(Dim);
 
@@ -150,8 +150,8 @@ int main()
 //	getch();  
 //    Prim(v); 
 
-	printf("Tecle <enter>");
-	getch();
+//	printf("Tecle <enter>");
+//	getch();
 
 
 
